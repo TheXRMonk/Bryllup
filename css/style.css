@@ -460,8 +460,21 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 100px;
   background-image: url("../images/background/repeat-background/nice_snow.png");
   background-repeat: repeat;
+  background-color: #23261e;
   /*background-size: cover;*/
 }
+#fh5co-header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #b0bf97;
+  transition: all .3s linear;
+}
+
 #fh5co-header .fh5co-heading {
   margin-bottom: 10px;
 }
@@ -1059,12 +1072,16 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(17, 52, 104, 0.8);
+  background: #23261E;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 100%;
+  box-shadow: #ffffff;
+  /*outline-color: #ffffff;*/
+  /*outline-width: 20px;*/
+  border-color: #ffffff;
   position: relative;
   animation: pulse 1s ease infinite;
 }
@@ -1830,13 +1847,14 @@ form label {
 }
 
 .btn-primary {
-  background: #113468;
+  background: #23261E;
   color: #fff;
-  border: 2px solid #113468;
+  border: 2px solid #23261E;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #153f7e !important;
-  border-color: #153f7e !important;
+  background: #23261E !important;
+  /*border-color: #153f7e !important;*/
+  border: 2px solid #ffffff !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
