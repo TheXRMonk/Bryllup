@@ -5,7 +5,7 @@
 
     /*!
      * Project : simply-countdown
-     * Date : 27/06/2015
+     * Date : 10/06/2023
      * License : MIT
      * Version : 1.6.0
      * Author : Vincent Loy <vincent.loy1@gmail.com>
@@ -111,17 +111,17 @@
     exports.simplyCountdown = (elt, args) => {
         const eltProto = Object.getPrototypeOf(elt);
         let parameters = extend({
-            year: 2015,
+            year: 2023,
             month: 6,
-            day: 28,
+            day: 10,
             hours: 9,
             minutes: 0,
             seconds: 0,
             words: {
-                days: { singular: 'day', plural: 'days' },
-                hours: { singular: 'hour', plural: 'hours' },
-                minutes: { singular: 'minute', plural: 'minutes' },
-                seconds: { singular: 'second', plural: 'seconds' }
+                days: { singular: 'dag', plural: 'dage' },
+                hours: { singular: 'time', plural: 'timer' },
+                minutes: { singular: 'minut', plural: 'minuter' },
+                seconds: { singular: 'sekund', plural: 'sekunder' }
             },
             plural: true,
             inline: false,
