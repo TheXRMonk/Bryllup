@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #overlay {
   background: var(--white);
-  background-image: url("../images/overlay.JPG");
+  background-image: url("../images/background/sunset.jpg");
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -2377,45 +2377,37 @@ fadeIn {  from {
 
 
 /*Gallery*/
-/*#wrap {*/
-/*  width:100%;*/
-/*}*/
-/*.big_col, .medium_col, .small_col{*/
-/*  float:left;*/
-/*}*/
-/*img {*/
-/*  height:auto;*/
-/*  display:block;*/
-/*  margin:0;*/
-/*  padding:0;*/
-/*  border:none;*/
-/*  float:left;*/
-/*}*/
-/*.big_col {*/
-/*  width:25%;*/
-/*}*/
-/*.medium_col{*/
-/*  width:12.5%;*/
-/*}*/
-/*.small_col{*/
-/*  width:6.25%;*/
-/*}*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-/*.small_col img{*/
-/*  width:100%;*/
-/*}*/
-/*.medium_col>img {*/
-/*  width:100%;*/
-/*}*/
-/*.medium_col .small_img img {*/
-/*  width:50%;*/
-/*}*/
-/*.big_col .small_img img {*/
-/*  width:25%;*/
-/*}*/
-/*.big_col .medium_img img {*/
-/*  width:50%;*/
-/*}*/
-/*.big_col img {*/
-/*  width:100%;*/
-/*}*/
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
