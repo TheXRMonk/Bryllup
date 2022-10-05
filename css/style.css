@@ -474,6 +474,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-image: url("../images/background/repeat-background/nice_snow.png");
   background-repeat: repeat;
   background-color: var(--primary);
+  background-blend-mode: color-burn;
   /*background-size: cover;*/
 }
 #fh5co-header:before {
@@ -484,7 +485,8 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--primary);
+  /*background-color: var(--primary);*/
+  /*background-blend-mode: multiply;*/
   transition: all .3s linear;
 }
 
