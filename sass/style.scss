@@ -7,10 +7,10 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #113468 !default;
+$brand-primary: var(--headline) !default;
 $brand-secondary: #118DF0 !default;
 
-$brand-white: #fff;
+$brand-white: var(--white);
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
@@ -112,7 +112,7 @@ body {
 	font-size: 16px;
 	line-height: 1.7;
 	color: #828282;
-	background: #fff;
+	background: var(--white);
 }
 #page {
 	position: relative;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6, figure {
 						width: 0;
 						position: absolute;
 						pointer-events: none;
-						border-bottom-color: #fff;
+						border-bottom-color: var(--white);
 						border-width: 8px;
 						margin-left: -8px;
 					}
@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin-bottom: 10px;
 		line-height: 1.5;
 		font-weight: normal;
-		color: #113468;
+		color: var(--headline);
 		font-family: "Sacramento", Arial, serif;
 
 		@media screen and (max-width: $screen-xs) {
@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #overlay{
-	background: #ffffff;
+	background: var(--white);
 	background-image: url("../images/overlay.JPG");
 	background-size: cover;
 	height: 100%;
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 
 		p{
-			color: #ffffff;
+			color: var(--white);
 		}
 	}
 }
@@ -662,8 +662,8 @@ h1, h2, h3, h4, h5, h6, figure {
 				right: -14px;
 				display: inline-block;
 				border-top: 14px solid transparent;
-				border-left: 14px solid #fff;
-				border-right: 0 solid #fff;
+				border-left: 14px solid var(--white);
+				border-right: 0 solid var(--white);
 				border-bottom: 14px solid transparent;
 				content: " ";
 			}
@@ -682,7 +682,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			background-position: top center;
 			background-repeat: no-repeat;
 			position: relative;
-			color: #fff;
+			color: var(--white);
 			width: 160px;
 			height: 160px;
 			line-height: 50px;
@@ -1919,7 +1919,7 @@ form {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(../images/loader.gif) center no-repeat #fff;
+	background: url(../images/loader.gif) center no-repeat var(--white);
 }
 
 .animate-box {

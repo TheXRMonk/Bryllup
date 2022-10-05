@@ -49,7 +49,7 @@
 
 .lg-next:hover:not(.disabled),
 .lg-prev:hover:not(.disabled) {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-single-item .lg-next, .lg-single-item
@@ -221,7 +221,7 @@
 }
 
 .lg-toolbar .lg-icon:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-toolbar .lg-close:after {
@@ -411,7 +411,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @media (min-width: 768px) {
   .lg-outer .lg-thumb-item {
     border-radius: 4px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     -webkit-transition: border-color 0.25s ease;
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease;
@@ -750,8 +750,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-outer .lg-pager-thumb-cont {
-  background-color: #fff;
-  color: #fff;
+  background-color: var(--white);
+  color: var(--white);
   bottom: 100%;
   height: 83px;
   left: 0;
@@ -845,11 +845,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-outer.lg-dropdown-active .lg-share {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-outer .lg-dropdown {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 2px;
   font-size: 14px;
   list-style-type: none;
@@ -880,7 +880,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   width: 0;
   position: absolute;
   border: 8px solid transparent;
-  border-bottom-color: #fff;
+  border-bottom-color: var(--white);
   right: 16px;
   top: -16px;
 }
@@ -966,7 +966,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   top: 0;
   bottom: 0;
   z-index: 9999;
-  background-color: #fff;
+  background-color: var(--white);
   will-change: transform;
   -moz-transform: translate3d(100%, 0, 0);
   -o-transform: translate3d(100%, 0, 0);
@@ -981,7 +981,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .lg-comment-box .lg-comment-title {
   margin: 0;
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
 }
 
@@ -1003,7 +1003,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 .lg-comment-box .fb-comments {
   height: 100%;
   width: 100%;
-  background: url("../images/loading.gif") no-repeat scroll center center #fff;
+  background: url("../images/loading.gif") no-repeat scroll center center var(--white);
   overflow-y: auto;
   display: inline-block;
 }
@@ -1030,7 +1030,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-comment-box .lg-comment-close:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-comment-box .lg-comment-close:after {
@@ -1080,7 +1080,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-outer.lg-comment-active .lg-comment-toggle {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-outer.lg-comment-active .lg-comment-box {

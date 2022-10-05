@@ -49,7 +49,7 @@
 
 .lg-next:hover:not(.disabled),
 .lg-prev:hover:not(.disabled) {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-single-item .lg-next, .lg-single-item
@@ -221,7 +221,7 @@
 }
 
 .lg-toolbar .lg-icon:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .lg-toolbar .lg-close:after {
