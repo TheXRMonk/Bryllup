@@ -874,8 +874,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 /* Ayat */
 #fh5co-ayat{
-  background: -webkit-linear-gradient(top, var(--white) 0%,var(--headline) 100%); /* Chrome10+,Safari5.1+ */
-  /*background-color: var(--white);*/
+  background-image: url("../images/background/clouds.svg");
+  /*background: -webkit-linear-gradient(top, var(--white) 0%,var(--headline) 100%); !* Chrome10+,Safari5.1+ *!*/
+  background-color: var(--white);
+  background-blend-mode: multiply;
   color: var(--primary);
   font-size: 24px;
   position: relative;
@@ -2428,41 +2430,3 @@ fadeIn {  from {
 
 
 /*clouds*/
-
-.cloudsBackground {
-  position: relative;
-  background-size: 100% 100%;
-  z-index: 0;
-}
-
-.clouds {
-  width: 200px;
-  height: 300px;
-  position: absolute;
-}
-
-.cloud1 {
-  top: 80px;
-  z-index: 100;
-  fill: var(--white);
-  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
-  -webkit-animation: move 20s linear infinite;
-  -moz-animation: move 20s linear infinite;
-  -o-animation: move 20s linear infinite;
-  animation: move 20s linear infinite;
-}
-
-.cloud2 {
-  top: 240px;
-  z-index: 200;
-  fill: var(--white);
-  -webkit-animation: move 35s linear 10s infinite backwards;
-  -moz-animation: move 35s linear 10s infinite backwards;
-  -o-animation: move 35s linear 10s infinite backwards;
-  animation: move 35s linear 10s infinite backwards;
-}
-
-@-webkit-keyframes move {
-  from {-webkit-transform: translateX(-400px);}
-  to {-webkit-transform: translateX(1350px);}
-}
