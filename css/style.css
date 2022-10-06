@@ -2400,8 +2400,8 @@ fadeIn {  from {
 
 /* Create four equal columns that sits next to each other */
 .galleryColumn {
-  flex: 25%;
-  max-width: 25%;
+  flex: 33.333%;
+  max-width: 33.333%;
   padding: 0 4px;
   z-index: 2;
 }
