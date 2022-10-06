@@ -12,6 +12,7 @@
   --thirtiery: #798478;
   --headline: #c9ada1;
   --white: #eae0cc;
+  --orange: #ff996f;
 }
 
 /* =======================================================
@@ -239,7 +240,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   background-color: var(--secondary);
-  background-blend-mode: multiply;
+  background-blend-mode: color-burn;
 }
 
 .fh5co-bg {
@@ -506,7 +507,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: var(--white);
+  color: var(--orange);
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
