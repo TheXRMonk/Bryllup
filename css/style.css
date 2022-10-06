@@ -523,11 +523,12 @@ h1, h2, h3, h4, h5, h6, figure {
   background: var(--white);
   background-image: url("../images/background/sunset.jpg");
   background-size: cover;
+  background-position: center;
   height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 2000;
 }
 #overlay .content {
