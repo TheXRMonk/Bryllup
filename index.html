@@ -91,7 +91,7 @@
 <div class="fh5co-loader"></div>
 
 <!--<div class="container">-->
-<div id="page">
+<div id="page" style="overflow: hidden">
 	<!--<nav class="fh5co-nav" role="navigation">
         <div class="container">
             <div class="row">
@@ -286,7 +286,7 @@
 			</div>
 		</div>
 	</div>
-	
+<!--
 	<div id="fh5co-couple" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
 		<div class="container">
 			<img class="flower-2-right" style="position: absolute;" src="images/background/flowers/right-1.svg">
@@ -344,9 +344,42 @@
 			</div>
 		</div>
 	</div>
-
+-->
 <!--	style="background-image:url('images/background/blue-brush-2.jpg');"-->
 
+	<div id="fh5co-ayat" class="fh5co-bg">
+		<!--<img height="400" width="100%" style="top: 0" src="images/background/wave-up.svg">-->
+		
+		<!--
+		<img height="auto" width="100%" style="position: absolute; bottom: -175px;" src="images/background/wave-down.svg">
+-->
+		<div class="cloudsBackground">
+			<svg class="clouds cloud1" enable-background="new 0 0 512 512" height="512"
+				 version="1.1" viewBox="0 0 512 512" width="512" x="0" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+				 xmlns:xlink="http://www.w3.org/1999/xlink" y="0">
+    <path d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"
+		  id="cloud-icon"/>
+	</svg>
+			<svg class="clouds cloud2" enable-background="new 0 0 512 512" height="512"
+				 version="1.1" viewBox="0 0 512 512" width="512" x="0" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+				 xmlns:xlink="http://www.w3.org/1999/xlink" y="0">
+    <path d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"
+		  id="cloud-icon"/>
+	</svg>
+		</div>
+		
+		<div class="container">
+			<div class="ayat-content animate-box">
+				I kan finde vores ønsker i ønskeskyen<br>
+				<p>
+					<a href="https://xn--nskeskyen-k8a.dk/share/Mathias-Munk-Ulrich_Astrid--Mathias-Bryllupsoensker" target="_blank" class="btn btn-primary btn-sm">Ønskeskyen</a><br>
+					<!--					<i style="font-size: 15px">*Klik på knappen for at tilføje festen til jeres digitale kalender</i>-->
+				</p>
+			</div>
+		</div>
+	</div>
+	
+<!--
 	<div id="fh5co-gallery" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
 		<img class="flower-3-top" src="images/background/flowers/top-2.svg">
 		<img class="flower-4-bottom" src="images/background/flowers/bottom-2.svg">
@@ -365,7 +398,7 @@
 			</div>
 		</div>
 	</div>
-
+-->
 	<!--<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
         <div class="overlay"></div>
         <div class="container">
@@ -418,19 +451,7 @@
             </div>
         </div>
     </div>-->
-	<div id="fh5co-ayat">
-		<!--<img height="400" width="100%" style="top: 0" src="images/background/wave-up.svg">-->
-		<img height="400" width="100%" style="position: absolute; bottom: -175px" src="images/background/wave-down.svg">
-		<div class="container">
-			<div class="ayat-content animate-box">
-				I kan finde vores ønsker i ønskeskyen<br>
-				<p>
-					<a href="https://xn--nskeskyen-k8a.dk/share/Mathias-Munk-Ulrich_Astrid--Mathias-Bryllupsoensker" target="_blank" class="btn btn-primary btn-sm">Ønskeskyen</a><br>
-<!--					<i style="font-size: 15px">*Klik på knappen for at tilføje festen til jeres digitale kalender</i>-->
-				</p>
-			</div>
-		</div>
-	</div>
+	
 	
 	<!--
 	<div id="fh5co-health-protocol">
@@ -696,23 +717,27 @@
 	
 	
 	
-
-	<footer id="fh5co-footer" role="contentinfo" style="background: url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat ">
+	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
-			<img class="flower-1" style="position: absolute; right: 0; bottom: 0" src="images/background/flowers/bottom-right-1.svg">
-			<img class="flower-1" style="position: absolute; left: 0; bottom:0" src="images/background/flowers/bottom-left-1.svg">
+			<img class="flower-1" style="z-index: 1; position: absolute; left: -30px; bottom: -50px; width: 30%; height: auto; transform: rotate(35deg)" 
+				 src="images/background/flowers/top-right-1.svg">
+			<img class="flower-1" style="z-index: 1; position: absolute; right: -80px; bottom:0px; width: 40%; height: auto; transform: rotate(-50deg) scaleX(-1);" 
+				 src="images/background/flowers/top-right-1.svg">
 			<div class="row copyright animate-box">
 				<div class="col-md-12 text-center">
-					<p>
-						Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
-						<br>Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
-					<h3 style="color: #bf9b73">Wassalamu'alaikum Wr. Wb.</h3>
-					Jazakumullahu Khairan
+					<p style="color: var(--white)">
+						Noget text her Astrid?
+						<br>Mere Text her?
+					<h3 style="color: var(--orange)">Vi glæder os til at fejre kærligheden og livet med jer!</h3>
+					<p style="color: var(--white)">
+						Kærlig Hilsen
 					</p>
-					<img src="images/readme/half%20circle-200.png" width="100" height="100">
+					</p>
+					<img src="images/Mastrid/mastrid-framed-zoomed.jpg" width="100" style="margin-bottom: 10px">
 					<br>
-					<h1 style="font-family: 'Satisfy', Arial, serif">Rehan & Maulidan</h1>
+					<h1 style="font-family: 'Satisfy', Arial, serif; color: var(--primary);">Astrid & Mathias</h1>
 					<p>
+					<!--
 					<ul class="fh5co-social-icons">
 						<li><a target="_blank" href="https://github.com/maulidandev"><i class="icon-github"></i></a></li>
 						<li><a target="_blank" href="https://www.linkedin.com/in/maulidandev/"><i class="icon-linkedin"></i></a></li>
@@ -720,6 +745,7 @@
 						<li><a target="_blank" href="https://www.facebook.com/maulidannashuha"><i class="icon-facebook"></i></a></li>
 						<li><a target="_blank" href="https://twitter.com/ngodingsolusi"><i class="icon-twitter"></i></a></li>
 					</ul>
+					-->
 					</p>
 				</div>
 			</div>
