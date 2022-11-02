@@ -2146,7 +2146,8 @@ form label {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 30px;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAhUlEQVRIie2U0QmAMAxEE3EMcRIdQAdxUXGSDPL8ESmlasUWKfR9hssduY+I/AWwAWsqXWgRgK+6xhPPgLkLPODpDJhcT/UCTES6iAPvMFXtrwIeK4lBVU/f5k6YguwBbWjonviGUMXlV1QDakCpAcDw1ggYQ/Ps79q/YBER+2J+eFTi2QH5gHBCJs9nEQAAAABJRU5ErkJggg==);
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAhUlEQVRIie2U0QmAMAxEE3EMcRIdQAdxUXGSDPL8ESmlasUWKfR9hssduY+I/AWwAWsqXWgRgK+6xhPPgLkLPODpDJhcT/UCTES6iAPvMFXtrwIeK4lBVU/f5k6YguwBbWjonviGUMXlV1QDakCpAcDw1ggYQ/Ps79q/YBER+2J+eFTi2QH5gHBCJs9nEQAAAABJRU5ErkJggg==);*/
+  background-image: url(https://flaticons.net/icon.php?slug_category=miscellaneous&slug_icon=gift);
 }
 
 .option-btn.open:after {
@@ -2430,3 +2431,28 @@ fadeIn {  from {
 
 
 /*clouds*/
+
+/*simple columns*/
+.simpleRow {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  justify-contentcontent: center;
+}
+
+.SimpleColumn {
+  flex: 50%;
+}
+.centeredTable {
+  margin-left: auto;
+  margin-right: auto;
+  /*justify-content: center;*/
+  /*align-content: center;*/
+  /*align-items: center;*/
+}
+
+.tableContent
+{
+  text-align:center;
+  padding: 0 25px;
+}
