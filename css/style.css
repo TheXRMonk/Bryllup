@@ -2456,3 +2456,11 @@ fadeIn {  from {
   text-align:center;
   padding: 0 25px;
 }
+
+.stop-scrolling {
+
+  height: 100%;
+
+  overflow: hidden;
+
+}

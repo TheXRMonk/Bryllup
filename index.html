@@ -86,7 +86,7 @@
 	<![endif]-->
 
 </head>
-<body>
+<body onload='DisableScrolling()'>
 
 <div class="fh5co-loader"></div>
 
@@ -830,7 +830,16 @@
 		for (var i = 0; i < c.length; i++) {
 			c[i].classList.add('animate');
 		}*/
+		EnableScrolling();
 	});
+
+	function DisableScrolling() {
+		document.body.classList.add("stop-scrolling");
+	}
+
+	function EnableScrolling() {
+		document.body.classList.remove("stop-scrolling");
+	}
 
 	$.get( "https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues?state=all&per_page", function( data ) {
 		for (let i = 0; i < data.length; i++){
