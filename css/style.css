@@ -522,7 +522,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #overlay {
   background: var(--white);
-  background-image: url("../images/background/sunset.jpg");
+  background-image: url("../images/background/sunset.webp");
   background-size: cover;
   background-position: center;
   height: 100%;
