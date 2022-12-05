@@ -1173,10 +1173,10 @@ form label {
   }
 }
 #fh5co-footer{
-  background-image: url("../images/background/repeat-background/witewall_3.png");
+  background-image: url("../images/background/repeat-background/witewall_3 - colored.jpg");
   background-repeat: repeat;
   background-color: var(--thirtiery);
-  background-blend-mode: color-burn;
+  /*background-blend-mode: color-burn;*/
 }
 
 
